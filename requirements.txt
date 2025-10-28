@@ -1,0 +1,37 @@
+# -------------------------------
+# Core Spark & Data Processing
+# -------------------------------
+pyspark==3.5.1               # Core Spark API for local/cluster execution
+pandas>=2.1.0                # Lightweight for DataFrame inspection / metrics
+pyarrow>=15.0.0              # Required for Parquet + Arrow conversion
+
+# -------------------------------
+# AWS SDKs (for S3 metrics)
+# -------------------------------
+boto3>=1.35.0                # To access S3 and collect file size / metadata
+botocore>=1.35.0             # Dependency for boto3
+
+# -------------------------------
+# Metrics & Monitoring
+# -------------------------------
+prometheus_client>=0.20.0    # Push metrics to Prometheus Pushgateway
+requests>=2.31.0             # HTTP requests for integrations
+pyyaml>=6.0.2                # Config file support
+
+# -------------------------------
+# Workflow / Streaming Simulations
+# -------------------------------
+apache-airflow-client>=2.9.0 # (Optional) To mock DAG metrics collection
+confluent-kafka>=2.3.0       # (Optional) To simulate Kafka producer/consumer metrics
+
+# -------------------------------
+# Development / Utilities
+# -------------------------------
+pytest>=8.2.0                # For lightweight unit tests
+black>=24.3.0                # Code formatting
+flake8>=7.0.0                # Linting
+
+# -------------------------------
+# Visualization / Local Demo
+# -------------------------------
+matplotlib>=3.9.0            # (Optional) For local metric plots before Grafana
