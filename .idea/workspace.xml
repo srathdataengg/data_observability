@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="055def52-1e5d-4511-ad92-24a663e919b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/airflow_metrics_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/airflow_metrics_collector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dq_metrics_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/dq_metrics_collector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spark_partition_monitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/spark_partition_monitor.py" afterDir="false" />
